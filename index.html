@@ -4,164 +4,170 @@
     <meta charset="UTF-8">
     <title>WebDev Challenge 2 - Cakee</title>
     <meta name="description" content="Drugie zadanie z grupy webdev challenge">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="challenge, webdev, 2, Cakee">
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <header class="wrapper wrapper-header" id="home">
-        <nav class="navbar">
-            <p class="logo logo-top">Cakee</p>
-            <ul class="navbar-list">
-                <li class="navbar-list_item"><a class="scrollable" href="#home">Home</a></li>
-                <li class="navbar-list_item"><a class="scrollable" href="#about">About</a></li>
-                <li class="navbar-list_item"><a class="scrollable" href="#services">Services</a></li>
-                <li class="navbar-list_item"><a class="scrollable" href="#gallery">Gallery</a></li>
-                <li class="navbar-list_item"><a class="scrollable" href="#blog">Blog</a></li>
-                <li class="navbar-list_item"><a class="scrollable" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-content">
-            <h1 class="home-header">Fresh Life</h1>
-            <p class="description-black">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            <a href="#" class="button button_home">Get Free Now</a>
+<header class="wrapper wrapper-header" id="home">
+    <nav class="navbar" id="navbar">
+        <p class="logo logo-top">Cakee</p>
+        <ul class="navbar-list" id="navbar-list">
+            <li class="navbar-list_item"><a href="#home">Home</a></li>
+            <li class="navbar-list_item"><a href="#about">About</a></li>
+            <li class="navbar-list_item"><a href="#services">Services</a></li>
+            <li class="navbar-list_item"><a href="#gallery">Gallery</a></li>
+            <li class="navbar-list_item"><a href="#blog">Blog</a></li>
+            <li class="navbar-list_item"><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="hamburger-menu-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
         </div>
-        <img src="images/scroll-button.png" alt="scroll button" class="scroll-button">
-    </header>
-    <main>
-        <section class="wrapper wrapper-about" id="about">
-            <img class="about-image" src="images/raspberries.png" alt="raspberries">
-            <div class="about-description">
-                <h1 class="about-header">About Us</h1>
-                <p class="description-white">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <p class="description-white">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+    </nav>
+    <div class="header-content">
+        <h1 class="home-header">Fresh Life</h1>
+        <p class="description-black">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <a href="#" class="button button_home">Get Free Now</a>
+    </div>
+    <img src="images/scroll-button.png" alt="scroll button" class="scroll-button">
+</header>
+<main>
+    <section class="wrapper wrapper-about" id="about">
+        <img class="about-image" src="images/raspberries.png" alt="raspberries">
+        <div class="about-description">
+            <h1 class="about-header">About Us</h1>
+            <p class="description-white">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            <p class="description-white">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        </div>
+    </section>
+    <section class="wrapper wrapper-services" id="services">
+        <div class="services-content">
+            <div class="services-menu">
+                <div class="button-container">
+                    <button class="shopping-btn">Online Shopping</button>
+                    <img src="images/cart.png" alt="cart" class="button-image">
+                </div>
+                <div class="button-container">
+                    <button class="product-btn">Quality Product</button>
+                    <img src="images/plant.png" alt="plant" class="button-image">
+                </div>
+                <div class="button-container">
+                    <button class="domestic-btn">Domestic & International Delivery</button>
+                    <img src="images/globe.png" alt="globe" class="button-image">
+                </div>
+                <div class="button-container">
+                    <button class="organized-btn">Well Organized</button>
+                    <img src="images/carrot.png" alt="carrot" class="button-image">
+                </div>
             </div>
-        </section>
-        <section class="wrapper wrapper-services" id="services">
-            <div class="services-content">
-                <div class="services-menu">
-                    <div class="button-container">
-                        <button class="shopping-btn">Online Shopping</button>
-                        <img src="images/cart.png" alt="cart" class="button-image">
+            <div class="header-container">
+                <h1 class="services-header">Our Services</h1>
+                <img src="images/tomatoes.png" alt="tomatoes" class="services-image">
+            </div>
+        </div>
+    </section>
+    <section class="wrapper wrapper-gallery" id="gallery">
+        <div class="gallery-content">
+            <div class="gallery-description">
+                <h1 class="gallery-header">Gallery</h1>
+                <p class="description-black">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="gallery-row_1">
+                <img class="gallery-image gallery-image_large" src="images/image-large.png">
+                <div class="image_small-container">
+                    <img class="gallery-image gallery-image_small" src="images/image-small1.png">
+                    <img class="gallery-image gallery-image_small" src="images/image-small2.png">
+                </div>
+            </div>
+            <div class="gallery-row_2">
+                <img class="gallery-image gallery-image__medium" src="images/image-medium1.png">
+                <img class="gallery-image gallery-image__medium" src="images/image-medium2.png">
+            </div>
+            <a href="#" class="button button_gallery">View More</a>
+        </div>
+    </section>
+    <section class="wrapper wrapper-subscribe" id="subscribe">
+        <div class="subscribe-content">
+            <h1 class="subscribe-header">Subscribe To Us</h1>
+            <p class="description-black">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Your email address..." id="subscribe-email" required>
+                <button type="submit" class="button button_subscribe">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section class="wrapper wrapper-blog" id="blog">
+        <div class="blog-content">
+            <h1 class="blog-header">Blog</h1>
+            <p class="description-white description-blog">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure <br> dolor in reprehenderit in voluptate velit.</p>
+            <div class="blog-entries">
+                <a href="#" class="blog-post first-post">
+                    <img src="images/blog-first.png" alt="Green Smoothies: Too Much of a Good Thing?" class="post-background">
+                    <span class="post-date">20 Nov</span>
+                    <div class="post-info">
+                        <p class="post-title">Green Smoothies: Too Much of a Good Thing?</p>
+                        <p class="post-author">By Auskteez - 2 hours ago</p>
                     </div>
-                    <div class="button-container">
-                        <button class="product-btn">Quality Product</button>
-                        <img src="images/plant.png" alt="plant" class="button-image">
+                </a>
+                <a href="#" class="blog-post second-post">
+                    <img src="images/blog-second.png" alt="Growing Food and a 'Thirst' for Innovation" class="post-background">
+                    <span class="post-date">14 Nov</span>
+                    <div class="post-info">
+                        <p class="post-title">Growing Food and a 'Thirst' for Innovation</p>
+                        <p class="post-author">By Auskteez - 3 hours ago</p>
                     </div>
-                    <div class="button-container">
-                        <button class="domestic-btn">Domestic & International Delivery</button>
-                        <img src="images/globe.png" alt="globe" class="button-image">
+                </a>
+                <a href="#" class="blog-post third-post">
+                    <img src="images/blog-third.png" alt="Pesticides & Food: What You Need to Know" class="post-background">
+                    <span class="post-date">10 Nov</span>
+                    <div class="post-info">
+                        <p class="post-title">Pesticides & Food: What You Need to Know</p>
+                        <p class="post-author">By Auskteez - 6 hours ago</p>
                     </div>
-                    <div class="button-container">
-                        <button class="organized-btn">Well Organized</button>
-                        <img src="images/carrot.png" alt="carrot" class="button-image">
-                    </div>
-                </div>
-                <div class="header-container">
-                    <h1 class="services-header">Our Services</h1>
-                    <img src="images/tomatoes.png" alt="tomatoes" class="services-image">
-                </div>
+                </a>
             </div>
-        </section>
-        <section class="wrapper wrapper-gallery" id="gallery">
-            <div class="gallery-content">
-                <div class="gallery-description">
-                    <h1 class="gallery-header">Gallery</h1>
-                    <p class="description-black">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="gallery-row_1">
-                    <img class="gallery-image gallery-image_large" src="images/image-large.png">
-                    <div class="image_small-container">
-                        <img class="gallery-image gallery-image_small" src="images/image-small1.png">
-                        <img class="gallery-image gallery-image_small" src="images/image-small2.png">
-                    </div>
-                </div>
-                <div class="gallery-row_2">
-                    <img class="gallery-image gallery-image__medium" src="images/image-medium1.png">
-                    <img class="gallery-image gallery-image__medium" src="images/image-medium2.png">
-                </div>
-                <a href="#" class="button button_gallery">View More</a>
+            <a href="#" class="button button_blog">View More</a>
+        </div>
+    </section>
+    <section class="wrapper wrapper-contact" id="contact">
+        <div class="contact-description">
+            <h1 class="contact-header">Contact</h1>
+            <p class="description-black">For new projects, ideas, business or anything <br> you'd like to discuss, contact with me!</p>
+        </div>
+        <div class="contact-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Your name..." class="contact-input" id="contact-name" required>
+                <input type="email" placeholder="Your email..." class="contact-input" id="contact-email" required>
+                <input type="number" placeholder="Your phone number..." class="contact-input" id="contact-phone" required>
+                <textarea name="message" placeholder="Your Message..." id="contact-message" cols="58" rows="13" required></textarea>
+                <button type="submit" class="button contact-button">Send Message</button>
+            </form>
+            <div class="contact-details-container">
+                <h2 class="contact-header_details">Address</h2>
+                <p class="contact-details">123 City name, Street, City, Country</p>
+                <h2 class="contact-header_details">Email</h2>
+                <p class="contact-details">cahee@domain.com</p>
+                <h2 class="contact-header_details">Phone</h2>
+                <p class="contact-details">+012 345 6789</p>
             </div>
-        </section>
-        <section class="wrapper wrapper-subscribe" id="subscribe">
-            <div class="subscribe-content">
-                <h1 class="subscribe-header">Subscribe To Us</h1>
-                <p class="description-black">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <form class="subscribe-form">
-                    <input type="email" placeholder="Your email address..." id="subscribe-email" required>
-                    <button type="submit" class="button button_subscribe">Subscribe</button>
-                </form>
-            </div>
-        </section>
-        <section class="wrapper wrapper-blog" id="blog">
-            <div class="blog-content">
-                <h1 class="blog-header">Blog</h1>
-                <p class="description-white description-blog">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure <br> dolor in reprehenderit in voluptate velit.</p>
-                <div class="blog-entries">
-                    <a href="#" class="blog-post first-post">
-                        <img src="images/blog-first.png" alt="Green Smoothies: Too Much of a Good Thing?" class="post-background">
-                        <span class="post-date">20 Nov</span>
-                        <div class="post-info">
-                            <p class="post-title">Green Smoothies: Too Much of a Good Thing?</p>
-                            <p class="post-author">By Auskteez - 2 hours ago</p>
-                        </div>
-                    </a>
-                    <a href="#" class="blog-post second-post">
-                        <img src="images/blog-second.png" alt="Growing Food and a 'Thirst' for Innovation" class="post-background">
-                        <span class="post-date">14 Nov</span>
-                        <div class="post-info">
-                            <p class="post-title">Growing Food and a 'Thirst' for Innovation</p>
-                            <p class="post-author">By Auskteez - 3 hours ago</p>
-                        </div>
-                    </a>
-                    <a href="#" class="blog-post third-post">
-                        <img src="images/blog-third.png" alt="Pesticides & Food: What You Need to Know" class="post-background">
-                        <span class="post-date">10 Nov</span>
-                        <div class="post-info">
-                            <p class="post-title">Pesticides & Food: What You Need to Know</p>
-                            <p class="post-author">By Auskteez - 6 hours ago</p>
-                        </div>
-                    </a>
-                </div>
-                <a href="#" class="button button_blog">View More</a>
-            </div>
-        </section>
-        <section class="wrapper wrapper-contact" id="contact">
-            <div class="contact-description">
-                <h1 class="contact-header">Contact</h1>
-                <p class="description-black">For new projects, ideas, business or anything <br> you'd like to discuss, contact with me!</p>
-            </div>
-            <div class="contact-content">
-                <form class="contact-form">
-                    <input type="text" placeholder="Your name..." class="contact-input" id="contact-name" required>
-                    <input type="email" placeholder="Your email..." class="contact-input" id="contact-email" required>
-                    <input type="number" placeholder="Your phone number..." class="contact-input" id="contact-phone" required>
-                    <textarea name="message" placeholder="Your Message..." id="contact-message" cols="58" rows="13" required></textarea>
-                    <button type="submit" class="button contact-button">Send Message</button>
-                </form>
-                <div class="contact-details-container">
-                    <h2 class="contact-header_details">Address</h2>
-                    <p class="contact-details">123 City name, Street, City, Country</p>
-                    <h2 class="contact-header_details">Email</h2>
-                    <p class="contact-details">cahee@domain.com</p>
-                    <h2 class="contact-header_details">Phone</h2>
-                    <p class="contact-details">+012 345 6789</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="wrapper wrapper-form">
-        <p class="copyrights">&copy 2018 Damian Stachura. All right reserved.</p>
-        <p class="logo logo-bot">Cakee</p>
-        <p class="madeby">Made with <span class="pink-text">love </span>by Auskteez <br> Coded by Damian Stachura</p>
-    </footer>
+        </div>
+    </section>
+</main>
+<footer class="wrapper wrapper-form">
+    <p class="copyrights">&copy 2018 Damian Stachura. All right reserved.</p>
+    <p class="logo logo-bot">Cakee</p>
+    <p class="madeby">Made with <span class="pink-text">love </span>by Auskteez <br> Coded by Damian Stachura</p>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>
