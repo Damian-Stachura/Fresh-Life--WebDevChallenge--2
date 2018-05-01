@@ -3,10 +3,16 @@
   #GENERAL
 \*------------------------------------*/
 
-html {
-    border: 1px solid #000;
+html,body
+{
+    width: 100%;
     overflow-x: hidden;
 }
+
+/*html {
+    border: 1px solid #000;
+    overflow-x: hidden;
+}*/
 
 body, a {
     font-family: 'Raleway', sans-serif;
