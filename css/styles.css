@@ -3,6 +3,11 @@
   #GENERAL
 \*------------------------------------*/
 
+html {
+    border: 1px solid #000;
+    overflow-x: hidden;
+}
+
 body, a {
     font-family: 'Raleway', sans-serif;
 }
@@ -151,7 +156,7 @@ input[type=number]::-webkit-outer-spin-button {
     transition: background-color 1s, padding-bottom 1s, box-shadow 2s;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     background: #fff;
     z-index: 1;
@@ -593,6 +598,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #contact-message {
+    width: 500px;
+    height: 235px;
     box-sizing: border-box;
     border: none;
     padding: 20px 0 0 15px;
@@ -721,7 +728,7 @@ input[type=number]::-webkit-outer-spin-button {
     .navbar-list {
         display: block;
         opacity: 0;
-        width: 100%;
+        width: 100vw;
         margin: 0;
         position: fixed;
         top: 80px;
@@ -738,7 +745,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .navbar-list_item {
         padding: 0 0 10px 0;
-        width: 100%;
+        width: 100vw;
         text-align: center;
     }
 
@@ -910,6 +917,7 @@ input[type=number]::-webkit-outer-spin-button {
         align-items: center;
         width: 100%;
         height: 350px;
+        margin: 0;
     }
 
     .sticky-menu-margin-top {

@@ -64,19 +64,8 @@ $('a[href*="#"]')
                 // Only prevent default if animation is actually gonna happen
                 event.preventDefault();
                 $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000, function() {
-                    // Callback after animation
-                    // Must change focus!
-                    var $target = $(target);
-                    $target.focus();
-                    if ($target.is(":focus")) { // Checking if the target was focused
-                        return false;
-                    } else {
-                        $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                        $target.focus(); // Set focus again
-                    };
-                });
+                    scrollTop: target.offset().top - 80
+                }, 1000);
                 navbarList.classList.toggle("navbar-list-hamburger");
                 hamburgerIcon.classList.toggle("change");
             }
